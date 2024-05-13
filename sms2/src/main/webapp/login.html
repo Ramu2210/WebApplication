@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Login</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+	</head>
+	
+	
+	<body>
+		
+		<div class="container">
+			<div class="card" style="width:32rem ; margin:3rem auto">
+				<div class="card-body">
+					<h5 class="card-title text-center mb-3 text-primary">Welcome to Sms</h5>
+		
+	
+					 <form action="HomeController" method="GET">
+					
+					
+						<input type="hidden" name="command" value="AUTH">				
+					
+					
+						<div class="mb-3">
+							<label class="form-label">Enter Your Email</label>
+							<input class=" form-control" name="user">
+						</div>
+					
+						<div class="mb-3">
+							<label class="form-label">Enter Your Password </label>
+							<input type="password" class="form-control" name="pass">
+						</div>
+						
+						<div >							
+							<input type="Submit" value="Log In" class="btn btn-primary" style="width:100%">
+						</div>
+						
+						
+					</form> 
+			
+				</div>
+		
+			</div>
+		</div>	
+		
+	
+	</body>
+</html>

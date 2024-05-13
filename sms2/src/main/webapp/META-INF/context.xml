@@ -1,0 +1,23 @@
+<Context>
+
+ <Resource name="dbConn"
+
+  auth="Container" type="javax.sql.DataSource"
+
+    username="root" password="Passy@17"
+
+    url="jdbc:mysql://localhost:3306/phase3"
+
+    driverClassName="com.mysql.cj.jdbc.Driver"
+
+    initialSize="5" maxWait="50000"
+
+    maxActive="20" maxIdle="5"
+
+    />
+
+</Context>
+
+
+
+<!-- merko  connection object dega -->
